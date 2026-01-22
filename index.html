@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Iconos FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navegación Transparente -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-terminal"></i> ROBERTO_DEV
+        </div>
+        <button id="theme-toggle" class="theme-btn">
+            <i class="fa-solid fa-sun"></i>
+        </button>
+    </nav>
+
+    <!-- Sección Hero (Presentación) -->
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1 class="greeting">Hello, I am <br><span id="typing-name"></span><span class="cursor">|</span></h1>
+                <h2 class="role">Full Stack Developer</h2>
+                <p class="description">
+                    Specialized in building modern and scalable web applications. 
+                    I transform complex ideas into elegant and functional code.
+                </p>
+                
+                <div class="social-links">
+                    <a href="https://github.com/robertoxd159" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/roberto-cesar-zevallos-canevaro-974860399/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:forever03045@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://wa.me/51923481905" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+
+                <div class="cta-buttons">
+                    <a href="#about-page" class="btn primary">About Me</a>
+                    <a href="Roberto_Zevallos_CV.pdf" download="Roberto_Zevallos_CV.pdf" target="_blank" class="btn secondary">Download CV <i class="fa-solid fa-download"></i></a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="profile-circle">
+                    <!-- Reemplaza src con tu foto real -->
+                    <img src="hero.jpg" alt="Roberto's Photo">
+                    
+                    <!-- Logos flotantes -->
+                    <div class="tech-logo l1" title="JavaScript"><i class="fa-brands fa-js"></i></div>
+                    <div class="tech-logo l2" title="React"><i class="fa-brands fa-react"></i></div>
+                    <div class="tech-logo l3" title="Python"><i class="fa-brands fa-python"></i></div>
+                    <div class="tech-logo l4" title="HTML5"><i class="fa-brands fa-html5"></i></div>
+                    <div class="tech-logo l5" title="CSS3"><i class="fa-brands fa-css3-alt"></i></div>
+                    <div class="tech-logo l6" title="Node.js"><i class="fa-brands fa-node-js"></i></div>
+                    <div class="tech-logo l7" title="Java"><i class="fa-brands fa-java"></i></div>
+                    <div class="tech-logo l8" title="Git"><i class="fa-brands fa-git-alt"></i></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Sección: Conóceme Mejor (Estilo Página Completa) -->
+        <section id="about-page" class="full-page-section">
+            <h2 class="section-title hidden">Get to know me better</h2>
+            
+            <p class="about-description hidden">
+                I am a passionate developer with a solid track record in creating digital solutions. 
+                I love solving complex problems and constantly learning new technologies. 
+                My approach combines technical creativity with engineering best practices to deliver high-quality products.
+            </p>
+
+            <!-- Grid de Habilidades (Solo Logos) -->
+            <div class="skills-container">
+                <!-- Frontend -->
+                <div class="skill-category hidden">
+                    <h3>Frontend</h3>
+                    <div class="icons-grid">
+                        <i class="fa-brands fa-html5" title="HTML5"></i>
+                        <i class="fa-brands fa-css3-alt" title="CSS3"></i>
+                        <i class="fa-brands fa-js" title="JavaScript"></i>
+                        <i class="fa-brands fa-react" title="React"></i>
+                        <i class="fa-brands fa-vuejs" title="Vue.js"></i>
+                    </div>
+                </div>
+                
+                <!-- Backend -->
+                <div class="skill-category hidden">
+                    <h3>Backend</h3>
+                    <div class="icons-grid">
+                        <i class="fa-brands fa-node-js" title="Node.js"></i>
+                        <i class="fa-brands fa-python" title="Python"></i>
+                        <i class="fa-brands fa-java" title="Java"></i>
+                        <i class="fa-brands fa-php" title="PHP"></i>
+                        <i class="fa-solid fa-database" title="SQL"></i>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-category hidden">
+                    <h3>Tools</h3>
+                    <div class="icons-grid">
+                        <i class="fa-brands fa-git-alt" title="Git"></i>
+                        <i class="fa-brands fa-docker" title="Docker"></i>
+                        <i class="fa-brands fa-linux" title="Linux"></i>
+                        <i class="fa-brands fa-npm" title="NPM"></i>
+                        <i class="fa-brands fa-aws" title="AWS"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botón Proyectos -->
+            <div class="projects-cta hidden">
+                <a href="#projects" class="btn primary big-btn">View my projects <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <!-- Sección: Formación Académica -->
+        <section id="education" class="full-page-section">
+            <h2 class="section-title hidden">Education</h2>
+            
+            <div class="timeline">
+                <!-- Estudio 1 -->
+                <div class="job-card hidden">
+                    <div class="job-header">
+                        <h3>Systems Engineering</h3>
+                        <span class="company">Universidad César Vallejo</span>
+                        <span class="date">Oct 2023 - Present</span>
+                    </div>
+                    <ul class="job-responsibilities">
+                        <li>Currently in the 8th cycle.</li>
+                        <li>Training focused on programming, web design, systems analysis, and IT project management.</li>
+                    </ul>
+                </div>
+
+                <!-- Estudio 2 -->
+                <div class="job-card hidden">
+                    <div class="job-header">
+                        <h3>Technical Professional in Computing and Informatics</h3>
+                        <span class="company">IESTP Chancay</span>
+                        <span class="date">2019 - 2022</span>
+                    </div>
+                    <ul class="job-responsibilities">
+                        <li>Graduated. Specialization in technical support and software development.</li>
+                        <li>Network administration and computer equipment maintenance.</li>
+                    </ul>
+                    <!-- Botón Ver Título -->
+                    <a href="titulo.pdf" target="_blank" class="btn secondary btn-sm">View Degree <i class="fa-solid fa-file-pdf"></i></a>
+                </div>
+
+                <!-- Estudio 3 -->
+                <div class="job-card hidden">
+                    <div class="job-header">
+                        <h3>Training in Money Laundering Prevention (SPLAFT)</h3>
+                        <span class="company">Notaría Narvaez</span>
+                        <span class="date">2025</span>
+                    </div>
+                    <ul class="job-responsibilities">
+                        <li>Management of prevention systems and digital data registration.</li>
+                        <li>Handling of sensitive information and regulatory compliance in systems.</li>
+                    </ul>
+                    <!-- Botón Ver Constancia -->
+                    <a href="constancia.pdf" target="_blank" class="btn secondary btn-sm">View Certificate <i class="fa-solid fa-certificate"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Experiencia Profesional -->
+        <section id="experience" class="full-page-section">
+            <h2 class="section-title hidden">Professional Experience</h2>
+            
+            <!-- Resumen del Rol -->
+            <div class="experience-summary hidden">
+                <p>
+                    With a solid foundation in <strong>Technical Support and IT Infrastructure</strong>, I have evolved towards Systems Engineering and Web Development. 
+                    My experience ranges from hardware maintenance, networks, and database management in critical environments (Hospitals, Notaries), 
+                    to the implementation of web solutions and system debugging. I combine practical technical skills with advanced academic training to solve complex problems.
+                </p>
+            </div>
+
+            <!-- Línea de Tiempo -->
+            <div class="timeline">
+                <!-- Trabajo Freelance -->
+                <div class="job-card hidden">
+                    <div class="job-header">
+                        <h3>Freelance Web Developer</h3>
+                        <span class="company">Independent Projects</span>
+                        <span class="date">Present</span>
+                    </div>
+                    <ul class="job-responsibilities">
+                        <li>Design of custom websites, digital CVs, and personal portfolios.</li>
+                        <li>Development of management systems for businesses and commercial premises.</li>
+                        <li>Implementation of custom web solutions based on client requirements.</li>
+                    </ul>
+                    <div class="job-tech">
+                        <span>React</span><span>HTML/CSS</span><span>PHP</span><span>Sistemas</span>
+                    </div>
+                </div>
+
+                <!-- Trabajo 1 -->
+                <div class="job-card hidden">
+                    <div class="job-header">
+                        <h3>IT Support & Database Manager</h3>
+                        <span class="company">Notaría Narvaez (Huaral)</span>
+                        <span class="date">Oct 2023 - Present</span>
+                    </div>
+                    <ul class="job-responsibilities">
+                        <li>Management and migration of databases for money laundering prevention (SPLAFT).</li>
+                        <li>Comprehensive technical support: maintenance and repair of computers, printers, and technological equipment.</li>
+                        <li>Resolution of hardware and software incidents in the notary's infrastructure.</li>
+                    </ul>
+                    <div class="job-tech">
+                        <span>SQL</span><span>Hardware</span><span>Redes</span><span>Soporte TI</span>
+                    </div>
+                </div>
+
+                <!-- Trabajo 2 -->
+                <div class="job-card hidden">
+                    <div class="job-header">
+                        <h3>Technical Support & Systems Assistant</h3>
+                        <span class="company">Hospital de Chancay "Dr. Hidalgo Atoche López"</span>
+                        <span class="date">Jun 2023 - Oct 2023</span>
+                    </div>
+                    <ul class="job-responsibilities">
+                        <li>Maintenance of network infrastructure, structured cabling, and security cameras (CCTV).</li>
+                        <li>Support in web design and bug fixing in internal hospital systems.</li>
+                        <li>Diagnosis and repair of technical failures in computer equipment.</li>
+                    </ul>
+                    <div class="job-tech">
+                        <span>Redes</span><span>CCTV</span><span>HTML/CSS</span><span>Hardware</span>
+                    </div>
+                </div>
+
+                <!-- Trabajo 3 -->
+                <div class="job-card hidden">
+                    <div class="job-header">
+                        <h3>Technical & Administrative Support</h3>
+                        <span class="company">CLAS Pedro Canevaro Garay (Chancayllo)</span>
+                        <span class="date">Ene 2023 - Jun 2023</span>
+                    </div>
+                    <ul class="job-responsibilities">
+                        <li>Technical support for computer equipment and assistance in the accounting area.</li>
+                        <li>Preventive and corrective hardware maintenance.</li>
+                    </ul>
+                    <div class="job-tech">
+                        <span>Excel</span><span>Soporte</span><span>Contabilidad</span>
+                    </div>
+                </div>
+
+                <!-- Trabajo 4 -->
+                <div class="job-card hidden">
+                    <div class="job-header">
+                        <h3>DJ & Audio Operator</h3>
+                        <span class="company">Estación de Radio</span>
+                        <span class="date">2018</span>
+                    </div>
+                    <ul class="job-responsibilities">
+                        <li>Operation of sound equipment and live audio mixing.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Proyectos Destacados -->
+        <section id="projects" class="full-page-section">
+            <h2 class="section-title hidden">Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <!-- Proyecto Nuevo: Sistema Restaurante QR -->
+                <article class="project-card hidden">
+                    <div class="project-image">
+                        <img src="img/41.png" alt="Sistema de Pedidos Restaurante">
+                        <div class="project-overlay">
+                            <h3>QR Ordering System (Full Stack)</h3>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Comprehensive system for restaurants. Allows customers to scan QR, view the menu, and order from their table. Includes real-time panels for Waiters (order management), Kitchen (KDS/Alerts), and Administrator (earnings, menu and user configuration).</p>
+                        <div class="project-tech">
+                            <span>PHP</span><span>MySQL</span><span>JS</span><span>QR Scanner</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://pedidos-qr-demo.page.gd/" target="_blank" class="btn primary btn-sm">View Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                            <button class="btn secondary btn-sm open-instructions" data-project="restaurante_qr">Instructions <i class="fa-solid fa-key"></i></button>
+                            <a href="#" class="btn secondary btn-sm open-gallery" data-project="restaurante_qr">Gallery <i class="fa-solid fa-images"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyecto Nuevo: Landing Page Servicios -->
+                <article class="project-card hidden">
+                    <div class="project-image">
+                        <img src="img/37.png" alt="Landing Page Servicios Técnicos">
+                        <div class="project-overlay">
+                            <h3>Technical Services Landing Page</h3>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Professional landing page for technical services and web development. Includes presentation sections, project portfolio (webs, bots), client testimonials, FAQs, and integrated TikTok feed.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Integración Social</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" target="_blank" class="btn primary btn-sm">View Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="#" class="btn secondary btn-sm open-gallery" data-project="landing_servicios">Gallery <i class="fa-solid fa-images"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyecto 1: Curriculum Moderno -->
+                <article class="project-card hidden">
+                    <div class="project-image">
+                        <!-- Reemplaza con una captura de tu CV moderno -->
+                        <img src="img/31.png" alt="Curriculum Moderno">
+                        <div class="project-overlay">
+                            <h3>Modern Web Portfolio</h3>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Resume website with modern and elegant design. Structured in clear sections: Home, About Me, Skills, Career (Curriculum), Portfolio, and Contact, offering a fluid user experience.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Diseño UI/UX</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://robertoxd159.github.io/kal/" target="_blank" class="btn primary btn-sm">View Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="#" class="btn secondary btn-sm open-gallery" data-project="cv_moderno">Gallery <i class="fa-solid fa-images"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Proyecto 2: Página de Serie -->
+                <article class="project-card hidden">
+                    <div class="project-image">
+                        <!-- Reemplaza con una captura de tu página de serie -->
+                        <img src="img/20.png" alt="Página de Serie">
+                        <div class="project-overlay">
+                            <h3>TV Series Fan Page</h3>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Complete website dedicated to a series. Includes typing effect on start, actor profiles, soundtrack, follower statistics, behind-the-scenes gallery, episode list, and functional contact form.</p>
+                        <div class="project-tech">
+                            <span>Bootstrap</span><span>JavaScript</span><span>ContactForm</span><span>Multimedia</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://robertoxd159.github.io/serie-prueba/" target="_blank" class="btn primary btn-sm">View Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="#" class="btn secondary btn-sm open-gallery" data-project="serie">Gallery <i class="fa-solid fa-images"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Proyecto 3: Repositorio Personal -->
+                <article class="project-card hidden">
+                    <div class="project-image">
+                        <!-- Reemplaza con una captura de tu repositorio -->
+                        <img src="img/9.png" alt="Repositorio Personal">
+                        <div class="project-overlay">
+                            <h3>Personal File Repository</h3>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>File management platform with "Web App" interface. Features fixed header and footer, real-time search, and 6-category grid layout (Programming, Anime, Papercraft, etc.). Includes pagination and random quotes.</p>
+                        <div class="project-tech">
+                            <span>HTML/CSS</span><span>JavaScript</span><span>Filtrado en vivo</span><span>Layout Fijo</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://robertoxd159.github.io/data/index.html" target="_blank" class="btn primary btn-sm">View Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="#" class="btn secondary btn-sm open-gallery" data-project="repositorio">Gallery <i class="fa-solid fa-images"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Proyecto 4: Web Convenciones -->
+                <article class="project-card hidden">
+                    <div class="project-image">
+                        <img src="img/3.png" alt="Web Convenciones Perú">
+                        <div class="project-overlay">
+                            <h3>Conventions Web (Super Sentai / Comic Con)</h3>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Informative website for Peruvian conventions. Structured in sections (Super Sentai, Power Rangers, Comic Con) with an interactive effect on guests: hovering over the actor reveals their character. Includes redirection to ticket sales.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>Efectos Hover</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://robertoxd159.github.io/Tokusen-Legends/" target="_blank" class="btn primary btn-sm">View Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="#" class="btn secondary btn-sm open-gallery" data-project="convenciones">Gallery <i class="fa-solid fa-images"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+            
+
+                <!-- Proyecto 6: Invitación Navidad -->
+                <article class="project-card hidden">
+                    <div class="project-image">
+                        <!-- Reemplaza con una captura de tu invitación -->
+                        <img src="img/8.png" alt="Invitación Navidad">
+                        <div class="project-overlay">
+                            <h3>Interactive Christmas Invitation</h3>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Interactive digital card. Shows an initial message and, upon clicking "View invitation", reveals a special message to spend it together, activating synchronized background music.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Audio API</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://robertoxd159.github.io/navidad/" target="_blank" class="btn primary btn-sm">View Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="#" class="btn secondary btn-sm open-gallery" data-project="navidad">Gallery <i class="fa-solid fa-images"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyecto 7: Tarjeta de Cumpleaños -->
+                <article class="project-card hidden">
+                    <div class="project-image">
+                        <!-- Reemplaza con una captura de tu tarjeta -->
+                        <img src="img/16.png" alt="Tarjeta de Cumpleaños">
+                        <div class="project-overlay">
+                            <h3>Digital Birthday Card</h3>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Dedicated webpage for a special celebration. Features an elegant design divided into two sections: a visual gallery with photos of the person and a space dedicated to an emotional congratulatory message. Includes an interactive button to play celebration music.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Audio</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://robertoxd159.github.io/felizcumpleanos/" target="_blank" class="btn primary btn-sm">View Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="#" class="btn secondary btn-sm open-gallery" data-project="cumpleanos">Gallery <i class="fa-solid fa-images"></i></a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Proyecto 8: Catálogo de Libros -->
+                <article class="project-card hidden">
+                    <div class="project-image">
+                        <!-- Reemplaza con una captura de tu catálogo -->
+                        <img src="img/17.png" alt="Catálogo de Libros">
+                        <div class="project-overlay">
+                            <h3>Interactive Book Catalog</h3>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Web platform for book exploration. Organized into numerical categories (1-5) and a global "All" section. Allows dynamic navigation between different genres and book types.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Filtrado</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://robertoxd159.github.io/libros/" target="_blank" class="btn primary btn-sm">View Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="#" class="btn secondary btn-sm open-gallery" data-project="libros">Gallery <i class="fa-solid fa-images"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- Proyecto 9: Propuesta Interactiva -->
+                <article class="project-card hidden">
+                    <div class="project-image">
+                        <!-- Reemplaza con una captura de tu página -->
+                        <img src="img/28.png" alt="Propuesta Interactiva">
+                        <div class="project-overlay">
+                            <h3>Interactive Proposal "Will you be my girlfriend?"</h3>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <p>Fun page for a special proposal. Features two buttons: "Yes" and "No". The "No" button has programmed logic to escape the cursor when attempting to click, making it impossible to reject the proposal, while "Yes" shows a celebration alert.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>DOM Manipulation</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://robertoxd159.github.io/declaracion/" target="_blank" class="btn primary btn-sm">View Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="#" class="btn secondary btn-sm open-gallery" data-project="novia">Gallery <i class="fa-solid fa-images"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal de Galería -->
+    <div id="galleryModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption" id="modalCaption"></div>
+        <a class="prev-slide">&#10094;</a>
+        <a class="next-slide">&#10095;</a>
+    </div>
+
+    <!-- Modal de Instrucciones -->
+    <div id="instructionsModal" class="modal">
+        <div class="modal-text-content">
+            <span class="close-modal" style="top: 10px; right: 15px;">&times;</span>
+            <h3>Access Credentials</h3>
+            <div id="instructionsBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
