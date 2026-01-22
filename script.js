@@ -87,6 +87,21 @@ document.addEventListener('DOMContentLoaded', () => {
             { src: "img/51.png", caption: "Dish selection and details" },
             { src: "img/52.png", caption: "Successful order confirmation" }
         ],
+        "restobar_qr_ts": [
+            { src: "img/53.png", caption: "Restricted access (QR scan required)" },
+            { src: "img/54.png", caption: "Menu with search and filtering" },
+            { src: "img/55.png", caption: "Customer details & Out of stock indication" },
+            { src: "img/56.png", caption: "Order registered successfully" },
+            { src: "img/57.png", caption: "Staff Login" },
+            { src: "img/58.png", caption: "Waiter Panel: New Order & Notifications" },
+            { src: "img/59.png", caption: "Waiter Panel: Order Accepted" },
+            { src: "img/60.png", caption: "Waiter Panel: Order Finished" },
+            { src: "img/61.png", caption: "Waiter Panel: Bill Requested" },
+            { src: "img/62.png", caption: "Admin Panel: Menu & Stock Management" },
+            { src: "img/63.png", caption: "Worker Dashboard: Earnings" },
+            { src: "img/64.png", caption: "Boss Login" },
+            { src: "img/65.png", caption: "Boss Dashboard: Total Earnings & Stats" }
+        ],
         "landing_servicios": [
             { src: "img/37.png", caption: "Who I am and Technical Services" },
             { src: "img/38.png", caption: "Portfolio of Pages and Bots" },
@@ -157,6 +172,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 <li><strong>👉 Admin Panel:</strong> <a href="https://pedidos-qr-demo.page.gd/admin.php" target="_blank">Go to Panel</a> <br>User: <code>admin</code> • Password: <code>admin</code></li>
                 <li><strong>👉 Waiter Panel:</strong> <a href="https://pedidos-qr-demo.page.gd/mozo.php" target="_blank">Go to Panel</a> <br>User: <code>mozo</code> • Password: <code>mozo</code></li>
                 <li><strong>👉 Kitchen/KDS:</strong> <a href="https://pedidos-qr-demo.page.gd/cocina.php" target="_blank">Go to Panel</a> <br>User: <code>chef</code> • Password: <code>chef</code></li>
+            </ul>
+        `,
+        "restobar_qr_ts": `
+            <p>Explore the different roles in the system:</p>
+            <ul>
+                <li><strong>👉 Client Demo:</strong> <a href="https://restobar-app-ruby.vercel.app/" target="_blank">https://restobar-app-ruby.vercel.app/</a></li>
+                <li><strong>👉 Waiter Panel:</strong> <a href="https://restobar-app-ruby.vercel.app/mozo" target="_blank">Go to Panel</a> <br>Password: <code>1234</code></li>
+                <li><strong>👉 Kitchen Panel:</strong> <a href="https://restobar-app-ruby.vercel.app/cocina" target="_blank">Go to Panel</a> <br>Password: <code>1234</code></li>
+                <li><strong>👉 Dashboard:</strong> <a href="https://restobar-app-ruby.vercel.app/dashboard" target="_blank">Go to Panel</a> <br>Password: <code>1234</code></li>
+                <li><strong>👉 Admin (Menu):</strong> <a href="https://restobar-app-ruby.vercel.app/admin" target="_blank">Go to Panel</a> <br>Password: <code>1234</code></li>
+                <li><strong>👉 Boss Panel:</strong> <a href="https://restobar-app-ruby.vercel.app/jefe" target="_blank">Go to Panel</a> <br>Password: <code>9999</code></li>
             </ul>
         `
     };
